@@ -118,7 +118,7 @@ client.login(ayarlar.token);
 
 
 client.on("message", msg => {
-  var dm = client.channels.get("689883589344493663");
+  var dm = client.channels.get("765270696892039188");
   if (msg.channel.type === "dm") {
     if (msg.author.id === client.user.id) return;
     const botdm = new Discord.RichEmbed()
